@@ -19,3 +19,9 @@ variable "namespace" {
   description = "please specify a namespace for your deployment"
   type        = string
 }
+
+variable "wait" {
+  description = "please specify if you want to wait or not"
+  type        = bool
+  default     = false
+}
