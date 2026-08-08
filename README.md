@@ -31,8 +31,8 @@ module name {
     chart      = "nginx-ingress-controller"
     wait       = false
     values = [<<-EOF
-    replicaCount = 1
-    
+    replicaCount: 1
+
 EOF
 ]
 
