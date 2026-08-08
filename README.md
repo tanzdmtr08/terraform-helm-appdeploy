@@ -24,16 +24,16 @@ provider "helm" {
 
 ```
 module name {
-    source     = "tandzmtr08/appdeploy/helm"
+    source     = "tanzdmtr08/appdeploy/helm"
     name       = "nginx-ingress-controller"
     namespace  = "default"
     repository = "https://charts.bitnami.com/bitnami"
     chart      = "nginx-ingress-controller"
-    wait       = "false"
+    wait       = false
 
 }
 ```
-####
+#### Run below commands
 ```
 terraform init
 terraform apply
