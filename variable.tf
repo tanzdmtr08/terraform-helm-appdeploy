@@ -14,3 +14,8 @@ variable "chart" {
   description = "please specify a chart for your deployment"
   type        = string
 }
+
+variable "namespace" {
+  description = "please specify a namespace for your deployment"
+  type        = string
+}
